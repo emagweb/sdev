@@ -36,6 +36,50 @@ function App() {
           <Route path="/offer" element={<Offer />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route
+            path="./designer.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/designer.svg" />}
+          />
+          <Route
+            path="./devops.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/devops.svg" />}
+          />
+          <Route
+            path="./frontend.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/frontend.svg" />}
+          />
+          <Route
+            path="./gamedev.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/gamedev.svg" />}
+          />
+          <Route
+            path="./hiring.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/hiring.svg" />}
+          />
+          <Route
+            path="./lawyer.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/lawyer.svg" />}
+          />
+          <Route
+            path="./marketing.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/marketing.svg" />}
+          />
+          <Route
+            path="./mobile.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/mobile.svg" />}
+          />
+          <Route
+            path="./pm.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/pm.svg" />}
+          />
+          <Route
+            path="./smm.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/smm.svg" />}
+          />
+          <Route
+            path="./software.svg"
+            render={() => <Link to="https://emagweb.github.io/sdev/software.svg" />}
+          />
         </Routes>
       </div>
       <Footer />
