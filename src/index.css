@@ -129,6 +129,14 @@ code {
   width: 35%;
 }
 
+.feature-row .half.icon-block img.skill-icon {
+  width: 50%;
+}
+
+.dark {
+  color: #1C253D !important;
+}
+
 .feature__name {
   margin: 8px 20%;
   color: #E4C417;
@@ -136,6 +144,10 @@ code {
   font-weight: 700;
   line-height: 1.5;
   text-align: center !important;
+}
+.feature__name.dark {
+  margin: 0 20% 32px;
+  font-size: 1.5em;
 }
 .feature__text {
   margin: 8px 20% 16px;
