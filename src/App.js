@@ -37,6 +37,14 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route
+            path="./widget.js"
+            render={() => <Link to="https://emagweb.github.io/sdev/js/widget.js" />}
+          />
+          <Route
+            path="./widget.css"
+            render={() => <Link to="https://emagweb.github.io/sdev/css/widget.css" />}
+          />
+          <Route
             path="./backend.svg"
             render={() => <Link to="https://emagweb.github.io/sdev/icons/backend.svg" />}
           />
