@@ -15,27 +15,27 @@ function App() {
         <div className="container">
           <div className="header__content">
             <div className="logo">
-              <Link to="/"><img src={logo} alt="SlashDev Team" /></Link>
+              <Link to="/sdev/"><img src={logo} alt="SlashDev Team" /></Link>
               <div>
                 <h1 className="site-title">SlashDevTeam</h1>
                 <small className="site-desc">We are building a digital world</small>
               </div>
             </div>
             <div className="nav">
-              <Link className="header__link" to="/">Home</Link>
-              <Link className="header__link" to="/offer">Offer</Link>
-              <Link className="header__link" to="/team">Team</Link>
-              <Link className="header__link" to="/contact">Contact</Link>
+              <Link className="header__link" to="/sdev/">Home</Link>
+              <Link className="header__link" to="/sdev/offer">Offer</Link>
+              <Link className="header__link" to="/sdev/team">Team</Link>
+              <Link className="header__link" to="/sdev/contact">Contact</Link>
             </div>
           </div>
         </div>
       </div>
       <div className="content">
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/offer" element={<Offer />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/sdev/" element={<Home />} />
+          <Route path="/sdev/offer" element={<Offer />} />
+          <Route path="/sdev/team" element={<Team />} />
+          <Route path="/sdev/contact" element={<Contact />} />
           <Route
             path="./widget.js"
             render={() => <Link to="https://emagweb.github.io/sdev/js/widget.js" />}
