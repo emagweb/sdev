@@ -1,0 +1,54 @@
+[
+	{
+		"count": 1,
+		"salary": 78,
+		"general_experience": "devops",
+		"position": "Software Developer",
+		"business_area": "App Development",
+		"timeline": {
+			"start": "30.04.2011",
+			"end": "16.08.2015",
+			"job_title": "App Developer",
+			"desc": "Something"
+		}
+	},
+	{
+		"count": 2,
+		"salary": 48,
+		"general_experience": "react",
+		"position": "Software Developer",
+		"business_area": "App Development",
+		"timeline": {
+			"start": "30.04.2011",
+			"end": "16.08.2015",
+			"job_title": "App Developer",
+			"desc": "Something"
+		}
+	},
+	{
+		"count": 3,
+		"salary": 34,
+		"general_experience": "python",
+		"position": "Software",
+		"business_area": "App Development",
+		"timeline": {
+			"start": "30.04.2011",
+			"end": "16.08.2015",
+			"job_title": "App Developer",
+			"desc": "Something"
+		}
+	},
+	{
+		"count": 4,
+		"salary": 42,
+		"general_experience": "django",
+		"position": "Developer",
+		"business_area": "App Development",
+		"timeline": {
+			"start": "30.04.2011",
+			"end": "16.08.2015",
+			"job_title": "App Developer",
+			"desc": "Something"
+		}
+	}
+]

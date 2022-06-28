@@ -37,6 +37,10 @@ function App() {
           <Route path="/sdev/team" element={<Team />} />
           <Route path="/sdev/contact" element={<Contact />} />
           <Route
+            path="./vacancies.json"
+            render={() => <Link to="https://emagweb.github.io/sdev/data/vacancies.json" />}
+          />
+          <Route
             path="./widget.js"
             render={() => <Link to="https://emagweb.github.io/sdev/js/widget.js" />}
           />
