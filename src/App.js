@@ -96,6 +96,74 @@ function App() {
             path="./software.svg"
             render={() => <Link to="https://emagweb.github.io/sdev/icons/software.svg" />}
           />
+          
+          <Route
+            path="./cover.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/cover.png" />}
+          />
+          <Route
+            path="./eij.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/eij.png" />}
+          />
+          <Route
+            path="./heyboss.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/heyboss.png" />}
+          />
+          <Route
+            path="./odb.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/odb.png" />}
+          />
+          <Route
+            path="./offzmi.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/offzmi.png" />}
+          />
+          <Route
+            path="./advogram.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/advogram.png" />}
+          />
+
+          <Route
+            path="./adv-code-as.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/adv-code-as.png" />}
+          />
+          <Route
+            path="./adv-code-gp.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/adv-code-gp.png" />}
+          />
+          <Route
+            path="./off-code-as.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/off-code-as.png" />}
+          />
+          <Route
+            path="./off-code-gp.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/off-code-gp.png" />}
+          />
+          <Route
+            path="./hb-code-as.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/hb-code-as.png" />}
+          />
+          <Route
+            path="./hb-code-gp.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/hb-code-gp.png" />}
+          />
+          <Route
+            path="./odb-code-as.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/odb-code-as.png" />}
+          />
+          <Route
+            path="./odb-code-gp.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/odb-code-gp.png" />}
+          />
+          <Route
+            path="./eij-code-as.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/eij-code-as.png" />}
+          />
+          <Route
+            path="./eij-code-gp.png"
+            render={() => <Link to="https://emagweb.github.io/sdev/email/eij-code-gp.png" />}
+          />
+          
+
         </Routes>
       </div>
       <Footer />
